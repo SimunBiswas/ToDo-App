@@ -11,7 +11,7 @@ const TodoForm = ({addTodo}) => {
 
   return (
     <form className="todo-form" onSubmit={handleSubmit}>
-      <p>Get Things Done . . .</p>
+      <p className="todo-p">Get Things Done . . .</p>
       <input
         className="to-do"
         type="text"

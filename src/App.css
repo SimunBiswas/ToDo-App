@@ -61,4 +61,52 @@ body{
   cursor: pointer;
 }
 
+@media screen and (max-width:740px){
+  
+  .todo-p{
+    grid-area: para;
+  }
+  .to-do{
+    grid-area: input;
+  }
+  .todo-btn{
+    grid-area: button;
+  }
+  .todo-form{
+    display: grid;
+    grid-template-areas:
+    "para para para para para para para"
+    "input input input input input button button" ;
+  }
+  /* .item1 {
+  grid-area: header;
+}
+.item2 {
+  grid-area: menu;
+}
+.item3 {
+  grid-area: main;
+}
+.item4 {
+  grid-area: right;
+}
+.item5 {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "menu header header header header header header"
+    "menu main main main main main right"
+    "footer footer footer footer footer footer footer";
+  gap: 10px;
+  color: #848484;
+  background-color: black;
+  padding: 10px;
+  height: 100vh;
+} */
+}
+
+
 
